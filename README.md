@@ -1,2 +1,2 @@
-# predicting-poverty
-Predicting the Poverty Probability Index using socioeconomic data from 12600 individuals over 7 countries. 
+# Poverty Prediction - From Preprocessing to Model Stacking
+The motivation of creating this notebook is a data science competition hosted by Microsoft and DrivenData, which is a part of the Capstone project of the Microsoft Professional Certificate in Data Science and also my very first competition related to machine learning. By the end of the competition, I was at the top 2% on the leaderboard, and I am happy to share with you my approach, especially to those who are just beginning their journey on data science.
