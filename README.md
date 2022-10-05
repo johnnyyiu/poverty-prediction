@@ -11,13 +11,10 @@ The motivation of creating this notebook is a data science competition hosted by
 Participants are to predict the probability that individuals across 7 different countries live below the poverty line at the $2.50/day threshold, given other socioeconomic indicators. The probability of being in poverty was calculated using the **Poverty Probability Index (PPI)**, which estimates an individual's poverty status using 10 questions about a household’s characteristics and asset ownership. The remaining data comes from the **Financial Inclusion Insights** household surveys conducted by InterMedia.
 
 <a href="https://www.povertyindex.org"><img src="https://www.povertyindex.org/sites/default/files/PPI-logo-RGB-header-image.png" title="PPI" /></a>
-<a href="http://finclusion.org"><img src="https://i.imgur.com/jjPjT06.png" title="Fii" /></a>
+<a href="http://fii-website.staging.interactive.columnfivemedia.com"><img src="https://i.imgur.com/jjPjT06.png" title="Fii" /></a>
 
 ## Data
-The dataset was retrieved from datasciencecapstone.org and contains the PPI along with 58 features of 12,600 individuals across 7 different countries.
-
-**Information on the competition and the data:**
-https://datasciencecapstone.org/competitions/15/predicting-poverty/page/47/
+The dataset contains the PPI along with 58 features of 12,600 individuals across 7 different countries.
 
 ## Model
 I have hand-picked 3 regression-based models (Gboost, XGBoost and LightGBM) and used a 5-fold cross validation to evaluation their performance. A stacked model of the 3 is then tested for prediction results. The final r2 score was 0.4213, resulting a top 4% on the leaderboard. 
@@ -25,6 +22,6 @@ I have hand-picked 3 regression-based models (Gboost, XGBoost and LightGBM) and 
 **The model stacking approach here is inspired by Serigne, make sure to check it out at:**
 [Serigne's Stacked Regressions Notebook](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard).
 
-Please check out my kaggle kernel for run result, and if you liked it - give it an up-vote!! :) 
+Please check out my kaggle kernel for run result, and if you liked it - give it an up-vote!
 https://www.kaggle.com/johnnyyiu/poverty-prediction-from-visualization-to-stacking
 
